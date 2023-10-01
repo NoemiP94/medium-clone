@@ -206,11 +206,6 @@ aside {
 }
 /* SECTION 4 */
 
-
-#section4 {
-    position: sticky;
-    top: 0px;
-}
 #section4 li {
     list-style-type: none;
     padding: 0.5em;
@@ -220,6 +215,8 @@ aside {
 
 #section4 h6 {
     font-weight: 700;
+    position: sticky;
+    top: 110px;
     
 }
 
@@ -229,6 +226,8 @@ aside {
     width: 457px;
     justify-content: space-evenly;
     margin-top: 1.5em;
+    position: sticky;
+    top: 150px;
 }
 
 #first li{
@@ -238,7 +237,7 @@ aside {
 #second {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    width: 60%;
 }
 
 #second li {
